@@ -1,3 +1,7 @@
+<?php
+    include "../GreenGames/config.php";
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,7 +16,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Вход</title>
+    <title>Восстановление пароля</title>
 </head>
 <body>
     <svg style="display: none;">
@@ -95,49 +99,50 @@
         </symbol>
     </svg>    
     <div class="page">
-        <header class="header">
+    <header class="header">
         	<div class="header__inner">
         	    <div class="header__left">
-        	        <a href="index.html">
+        	        <a href="index.php">
         	            <img src="assets/images/monitor_gr.png" alt="" class="header__logo">
         	        </a>
         	        <ul class="header__list">
         	            <li class="header__list-item">
-        	                <a class="header__list-link" href="index.html">Магазин</a>
+        	                <a class="header__list-link" href="index.php"><?php echo $lang["Магазин"]?></a>
         	            </li>
         	            <li class="header__list-item">
-        	                <a class="header__list-link" href="#">Новости</a>
+        	                <a class="header__list-link" href="#"><?php echo $lang["Новости"]?></a>
         	            </li>
         	            <li class="header__list-item">
-        	                <a class="header__list-link" href="#">Часто задаваемые вопросы</a>
+        	                <a class="header__list-link" href="#"><?php echo $lang["Часто задаваемые вопросы"]?></a>
         	            </li>
         	        </ul>
         	    </div>
         	    <div class="header__right">
-        
+
         			<li class="languages">
-        				<a class="game__social__item languages-icon" href="#">
-        					<svg class="game__social__icon game__social__icon-languages">
-        						<use xlink:href="#languages"></use>
-        					</svg>
-        				</a>
+                        <a class="game__social__item languages-icon" href="#">
+                            <svg class="game__social__icon game__social__icon-languages">
+                                <use xlink:href="#languages"></use>
+                            </svg>
+                        </a>
+
         				<ul class="languages_subnav">
         					<li>
-        						<a class="languages__link" href="#">Русский</a>
+        						<a class="languages__link" href="index.php?lang=ru"><?php echo $lang["lang_ru"]?></a>
         					</li>
         					<li>
-        						<a class="languages__link" href="#">Українська</a>
+        						<a class="languages__link" href="index.php?lang=ua"><?php echo $lang["lang_ua"]?></a>
         					</li>
         					<li>
-        						<a class="languages__link" href="#">English</a>
+        						<a class="languages__link" href="index.php?lang=en"><?php echo $lang["lang_en"]?></a>
         					</li>
         				</ul>
         			</li>
-        
-        	        <div class="header__enterBlock">
-                        <a href="signin.html" class="header__enter">
+                    
+                    <div class="header__enterBlock">
+                        <a href="signin.php" class="header__enter">
                             <img src="assets/images/vr_helmet_gr.png" class="header__enterImage__image" alt="">
-                            <div class="header__enterText">Выполнить вход</div>
+                            <div class="header__enterText"><?php echo $lang["Выполнить вход"]?></div>
                         </a>
                     </div>
         	    </div>
@@ -145,14 +150,14 @@
         	<div class="mainHeader">
         	    <div class="mainHeader__inner">
         	        <div class="mainHeader__links">
-        	            <a class="mainHeader__link" href="index.html">Главная</a>
-        	            <a class="mainHeader__link" href="gallery.html">Все игры</a>
+        	            <a class="mainHeader__link" href="index.php"><?php echo $lang["Главная"]?></a>
+        	            <a class="mainHeader__link" href="gallery.php"><?php echo $lang["Все игры"]?></a>
         	        </div>
-        	        <form class="search" action="gallery.html" method="get">
+        	        <form class="search" action="gallery.php" method="get">
         	            <svg class="search__icon">
         	                <use xlink:href="#search"></use>
         	            </svg>
-        	            <input class="search__input" type="text" placeholder="Поиск">
+        	            <input class="search__input" type="text" placeholder="<?php echo $lang["Поиск"]?>">
         	        </form>
         	    </div>
         	</div>
@@ -163,40 +168,17 @@
                 <div class="authentication">
                 	<div class="authentication__left">
                 		<div class="authentication__content">
-                			<div class="authentication__left__title">Вход</div>
-                			<div class="authentication__left__text">Войдите в аккаунт, что бы получить возможность добавлять игры в коллекцию и писать комментарии</div>
+                			<div class="authentication__left__title">Восстановление пароля</div>
                 			<form class="authentication__form" action="/" method="get">
                 	            <input class="authentication__input" type="text" placeholder="Электронная почта">
-                	            <input class="authentication__input" type="text" placeholder="Пароль">
                 	        </form>
-                	        <button class="authentication__button">Войти</button>
-                	        <a href="signup.html" class="authentication__link">Нет аккаунта? Зарегистрируйтесь.</a>
-                	        <a href="reset.html" class="authentication__link">Не помните пароль?</a>
+                	        <button class="authentication__button">Отправить</button>
                 		</div>
                 	</div>
                 
                 	<div class="authentication__right">
-                			<div class="authentication__content">
-                			<div class="authentication__right__title">Можно войти через соцсети</div>
-                
-                			<div class="authentication__social">
-                				<svg class="authentication__social__icon">
-                					<use xlink:href="#vk"></use>
-                				</svg>
-                				<button class="authentication__social__btn">Войти через ВК</button>
-                			</div>
-                			<div class="authentication__social">
-                				<svg class="authentication__social__icon">
-                					<use xlink:href="#facebook"></use>
-                				</svg>
-                				<button class="authentication__social__btn">Войти через Фейсбук</button>
-                			</div>
-                			<div class="authentication__social">
-                				<svg class="authentication__social__icon">
-                					<use xlink:href="#steam"></use>
-                				</svg>
-                				<button class="authentication__social__btn">Войти через Steam</button>
-                			</div>
+                		<div class="authentication__content">
+                			<div class="authentication__right__title">На почту придёт письмо со ссылкой, чтобы сбросить пароль</div>
                 		</div>
                 	</div>
                 </div>

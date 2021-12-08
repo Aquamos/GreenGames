@@ -103,7 +103,7 @@
 		<header class="header">
         	<div class="header__inner">
         	    <div class="header__left">
-        	        <a href="index.html">
+        	        <a href="index.php">
         	            <img src="assets/images/monitor_gr.png" alt="" class="header__logo">
         	        </a>
         	        <ul class="header__list">
