@@ -181,7 +181,7 @@
         	            <svg class="search__icon">
         	                <use xlink:href="#search"></use>
         	            </svg>
-        	            <input class="search__input" type="text" placeholder="Поиск">
+        	            <input class="search__input" type="text" placeholder="<?php echo $lang["Поиск"]?>">
         	        </form>
         	    </div>
         	</div>
@@ -586,7 +586,7 @@
                     <a class="footer__list-link" href="#"><?php echo $lang["Поддержка авторов"]?></a>
                 </li>
                 <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Компания<?php echo $lang["Компания"]?></a>
+                    <a class="footer__list-link" href="#"><?php echo $lang["Компания"]?></a>
                 </li>
                 <li class="footer__list-item">
                     <a class="footer__list-link" href="#"><?php echo $lang["Политика конфиденциальности"]?></a>

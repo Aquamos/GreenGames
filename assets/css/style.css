@@ -2033,6 +2033,7 @@ a, a:active, a:focus {
     height: 26px;
     margin: 0 10px;
     position: relative;
+    z-index: 100;
 }
 
 .languages:hover > .languages_subnav {
@@ -2058,8 +2059,9 @@ a, a:active, a:focus {
     border-radius: 0 0 5px 5px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 146%;
+    top: 120%;
     left: -68px;
+    z-index: 0;
     text-align: center;
   }
   
