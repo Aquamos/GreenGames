@@ -17,7 +17,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Home</title>
+    <title><?php echo $lang["Главная"]?></title>
 </head>
 <body>
     <svg style="display: none;">
@@ -111,13 +111,13 @@
         	        </a>
         	        <ul class="header__list">
         	            <li class="header__list-item">
-        	                <a class="header__list-link" href="index.html">Магазин</a>
+        	                <a class="header__list-link" href="index.html"><?php echo $lang["Магазин"]?></a>
         	            </li>
         	            <li class="header__list-item">
-        	                <a class="header__list-link" href="#">Новости</a>
+        	                <a class="header__list-link" href="#"><?php echo $lang["Новости"]?></a>
         	            </li>
         	            <li class="header__list-item">
-        	                <a class="header__list-link" href="#">Часто задаваемые вопросы</a>
+        	                <a class="header__list-link" href="#"><?php echo $lang["Часто задаваемые вопросы"]?></a>
         	            </li>
         	        </ul>
         	    </div>
@@ -132,13 +132,13 @@
 
         				<ul class="languages_subnav">
         					<li>
-        						<a class="languages__link" href="#">Русский</a>
+        						<a class="languages__link" href="index.php?lang=ru"><?php echo $lang["lang_ru"]?></a>
         					</li>
         					<li>
-        						<a class="languages__link" href="#">Українська</a>
+        						<a class="languages__link" href="index.php?lang=ua"><?php echo $lang["lang_ua"]?></a>
         					</li>
         					<li>
-        						<a class="languages__link" href="#">English</a>
+        						<a class="languages__link" href="index.php?lang=en"><?php echo $lang["lang_en"]?></a>
         					</li>
         				</ul>
         			</li>
@@ -146,7 +146,7 @@
                     <div class="header__enterBlock">
                         <a href="signin.html" class="header__enter">
                             <img src="assets/images/vr_helmet_gr.png" class="header__enterImage__image" alt="">
-                            <div class="header__enterText">Выполнить вход</div>
+                            <div class="header__enterText"><?php echo $lang["Выполнить вход"]?></div>
                         </a>
                     </div>
         	    </div>
@@ -154,8 +154,8 @@
         	<div class="mainHeader">
         	    <div class="mainHeader__inner">
         	        <div class="mainHeader__links">
-        	            <a class="mainHeader__link" href="index.html">Главная</a>
-        	            <a class="mainHeader__link" href="gallery.html">Все игры</a>
+        	            <a class="mainHeader__link" href="index.html"><?php echo $lang["Главная"]?></a>
+        	            <a class="mainHeader__link" href="gallery.html"><?php echo $lang["Все игры"]?></a>
         	        </div>
         	        <form class="search" action="gallery.html" method="get">
         	            <svg class="search__icon">
@@ -175,41 +175,41 @@
                             <div class="content__inner show" id="sliderGame_1">
                                 <img class="sliderGame__img" src="https://consolity.com/wp-content/uploads/2021/02/assassins-creed-valhalla-credit-ubisoft@2000x1270-3-1.jpg">
                                 <div class="sliderGame__inner">
-                                    <p class="sliderGame__inner-status">Уже доступно</p>
+                                    <p class="sliderGame__inner-status"><?php echo $lang["Уже доступно"]?></p>
                                     <p class="sliderGame__inner-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates totam temporibus, voluptate delectus reprehenderit ea odio cumque nisi id.</p>
-                                    <div><a href="#">Узнать больше</a></div>
+                                    <div><a href="#"><?php echo $lang["Узнать больше"]?></a></div>
                                 </div>
                             </div>
                             <div class="content__inner" id="sliderGame_2">
                                 <img class="sliderGame__img" src="https://cdn.mos.cms.futurecdn.net/CjyxpAaE9pQr5RmST5nXRM-1200-80.jpg">
                                 <div class="sliderGame__inner">
-                                    <p class="sliderGame__inner-status">Уже доступно</p>
+                                    <p class="sliderGame__inner-status"><?php echo $lang["Уже доступно"]?></p>
                                     <p class="sliderGame__inner-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates totam temporibus, voluptate delectus reprehenderit ea odio cumque nisi id.</p>
-                                    <div><a href="#">Узнать больше</a></div>
+                                    <div><a href="#"><?php echo $lang["Узнать больше"]?></a></div>
                                 </div>
                             </div>
                             <div class="content__inner" id="sliderGame_3">
                                 <img class="sliderGame__img" src="https://cdn.igromania.ru/mnt/news/8/4/7/a/7/2/92157/51cbddb555e7b6b3_1920xH.jpg">
                                 <div class="sliderGame__inner">
-                                    <p class="sliderGame__inner-status">Уже доступно</p>
+                                    <p class="sliderGame__inner-status"><?php echo $lang["Уже доступно"]?></p>
                                     <p class="sliderGame__inner-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates totam temporibus, voluptate delectus reprehenderit ea odio cumque nisi id.</p>
-                                    <div><a href="#">Узнать больше</a></div>
+                                    <div><a href="#"><?php echo $lang["Узнать больше"]?></a></div>
                                 </div>
                             </div>
                             <div class="content__inner" id="sliderGame_4">
                                 <img class="sliderGame__img" src="https://assets2.rockpapershotgun.com/dota-2_N6a9mV2.jpg/BROK/resize/1200x630%3E/format/jpg/quality/80/dota-2_N6a9mV2.jpg">
                                 <div class="sliderGame__inner">
-                                    <p class="sliderGame__inner-status">Уже доступно</p>
+                                    <p class="sliderGame__inner-status"><?php echo $lang["Уже доступно"]?></p>
                                     <p class="sliderGame__inner-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates totam temporibus, voluptate delectus reprehenderit ea odio cumque nisi id.</p>
-                                    <div><a href="#">Узнать больше</a></div>
+                                    <div><a href="#"><?php echo $lang["Узнать больше"]?></a></div>
                                 </div>
                             </div>
                             <div class="content__inner" id="sliderGame_5">
                                 <img class="sliderGame__img" src="https://image.api.playstation.com/vulcan/ap/rnd/202009/3013/SuaUMuPw8nqJu3TJncPLsog9.jpg">
                                 <div class="sliderGame__inner">
-                                    <p class="sliderGame__inner-status">Уже доступно</p>
+                                    <p class="sliderGame__inner-status"><?php echo $lang["Уже доступно"]?></p>
                                     <p class="sliderGame__inner-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates totam temporibus, voluptate delectus reprehenderit ea odio cumque nisi id.</p>
-                                    <div><a href="#">Узнать больше</a></div>
+                                    <div><a href="#"><?php echo $lang["Узнать больше"]?></a></div>
                                 </div>
                             </div>
                         </div>
@@ -241,7 +241,7 @@
                 
                 <div class="gameList" id="small-slider">
                     <div class="gameList__header">
-                        <p class="gameList__title" href="#">Наиболее просматриваемые</p>
+                        <p class="gameList__title" href="#"><?php echo $lang["Наиболее просматриваемые"]?></p>
                         <div class="gameList__nav">
                             <a class="gameList__nav-link" href="#">&lt;</a>
                             <a class="gameList__nav-link" href="#">&gt;</a>
@@ -388,7 +388,7 @@
                         <div class="tiles__description">
                             <div class="tiles__title">Lorem ipsum, dolor sit amet</div>
                             <div class="tiles__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tenetur omnis assumenda amet sequi, deserunt neque iusto dolor tempora, illo.</div>
-                            <a href="#" class="tiles__link">Узнать больше</a>
+                            <a href="#" class="tiles__link"><?php echo $lang["Узнать больше"]?></a>
                         </div>
                     </div>
                 
@@ -400,7 +400,7 @@
                         <div class="tiles__description">
                             <div class="tiles__title">Lorem ipsum, dolor sit amet</div>
                             <div class="tiles__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tenetur omnis assumenda amet sequi, deserunt neque iusto dolor tempora, illo.</div>
-                            <a href="#" class="tiles__link">Узнать больше</a>
+                            <a href="#" class="tiles__link"><?php echo $lang["Узнать больше"]?></a>
                         </div>
                     </div>
                 </div>
@@ -408,7 +408,7 @@
                 <!--Игры на сайте -->
                 <div class="gameList">
                     <!-- Новые игры -->
-                    <p class="gameList__title">Новинки на сайте</p>
+                    <p class="gameList__title"><?php echo $lang["Новинки на сайте"]?></p>
                     <div class="gameList__games">
                         <a href="#" class="gameList__item">
                             <div href="#" class="gameList__img">
@@ -472,7 +472,7 @@
                         </a>
                     </div>
                     <!-- Популярные игры -->
-                    <p class="gameList__title">Популярные игры</p>
+                    <p class="gameList__title"><?php echo $lang["Популярные игры"]?></p>
                     <div class="gameList__games">
                         <a href="#" class="gameList__item">
                             <div class="gameList__img">
@@ -554,22 +554,22 @@
     				<use xlink:href="#star"></use>
     			</svg>
     		</div>
-    		<div class="modal__content__title">оцените это</div>
+    		<div class="modal__content__title"><?php echo $lang["оцените это"]?></div>
     		<div class="modal__content__game-title">Far Cry 6</div>
     		<div class="modal__content__stars"></div>
-    		<div class="modal__content__btn">Оценить</div>
+    		<div class="modal__content__btn"><?php echo $lang["Оценить"]?></div>
     	</div>
     </div>    <footer class="footer">
         <div class="footer__inner">
             <ul class="footer__list">
                 <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Поддержка авторов</a>
+                    <a class="footer__list-link" href="#"><?php echo $lang["Поддержка авторов"]?></a>
                 </li>
                 <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Компания</a>
+                    <a class="footer__list-link" href="#">Компания<?php echo $lang["Компания"]?></a>
                 </li>
                 <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Политика конфиденциальности</a>
+                    <a class="footer__list-link" href="#"><?php echo $lang["Политика конфиденциальности"]?></a>
                 </li>
             </ul>
         </div>
