@@ -1,25 +1,5 @@
 <?php
-        session_start();
-
-        if(!isset($_SESSION['lang'])) //если не установлен язык, по-умолчанию русский
-            $_SESSION['lang'] = "ru";
-    
-        /*Если мы получили значение языка,
-        И оно отличается от того, что у нас поставлено сейчас
-        И оно не пустое, то ставим новый язык.*/    
-        else if (isset($_GET['lang']) && 
-                $_SESSION['lang'] != $_GET['lang'] && 
-                !empty($_GET['lang'])) {
-    
-            if ($_GET['lang'] == "en")
-                $_SESSION['lang'] = "en";
-            else if ($_GET['lang'] == "ru")
-                $_SESSION['lang'] = "ru";
-            else if ($_GET['lang'] == "ua")
-                $_SESSION['lang'] = "ua";
-    
-        }
-        require_once "lang/" . $_SESSION['lang'] . ".php";
+    include "../GreenGames/config.php";
 ?>
 
 
@@ -131,7 +111,7 @@
         	        </a>
         	        <ul class="header__list">
         	            <li class="header__list-item">
-        	                <a class="header__list-link" href="index.html"><?php echo $lang["Магазин"]?></a>
+        	                <a class="header__list-link" href="index.php"><?php echo $lang["Магазин"]?></a>
         	            </li>
         	            <li class="header__list-item">
         	                <a class="header__list-link" href="#"><?php echo $lang["Новости"]?></a>
@@ -174,8 +154,8 @@
         	<div class="mainHeader">
         	    <div class="mainHeader__inner">
         	        <div class="mainHeader__links">
-        	            <a class="mainHeader__link" href="index.html"><?php echo $lang["Главная"]?></a>
-        	            <a class="mainHeader__link" href="gallery.html"><?php echo $lang["Все игры"]?></a>
+        	            <a class="mainHeader__link" href="index.php"><?php echo $lang["Главная"]?></a>
+        	            <a class="mainHeader__link" href="gallery.php"><?php echo $lang["Все игры"]?></a>
         	        </div>
         	        <form class="search" action="gallery.html" method="get">
         	            <svg class="search__icon">
