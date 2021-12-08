@@ -1,3 +1,8 @@
+<?php
+    include "../GreenGames/assets/php/config.php";
+?>
+
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -13,8 +18,6 @@
     <meta name="description" content="">
     
     <title>Home</title>
-    <!-- TestingGit -->
-    <!-- TestingGit -->
 </head>
 <body>
     <svg style="display: none;">
@@ -98,6 +101,7 @@
         </symbol>
 
     </svg>    
+    
     <div class="page">
         <header class="header">
         	<div class="header__inner">
