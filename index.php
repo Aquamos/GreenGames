@@ -132,13 +132,13 @@
 
         				<ul class="languages_subnav">
         					<li>
-        						<a class="languages__link" href="index.php?lang=ru"><?php echo $lang["lang_ru"]?></a>
+        						<a class="languages__link" id="languages__link__ru" href="index.php?lang=ru"><?php echo $lang["lang_ru"]?></a>
         					</li>
         					<li>
-        						<a class="languages__link" href="index.php?lang=ua"><?php echo $lang["lang_ua"]?></a>
+        						<a class="languages__link" id="languages__link__ua" href="index.php?lang=ua"><?php echo $lang["lang_ua"]?></a>
         					</li>
         					<li>
-        						<a class="languages__link" href="index.php?lang=en"><?php echo $lang["lang_en"]?></a>
+        						<a class="languages__link" id="languages__link__en" href="index.php?lang=en"><?php echo $lang["lang_en"]?></a>
         					</li>
         				</ul>
         			</li>
@@ -586,6 +586,7 @@
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/small-slider.js"></script>
     <script src="assets/js/specifications.js"></script>
-    
+
+
 </body>
 </html>
