@@ -55,5 +55,18 @@
         "Электронная почта" => "E-mail",
         "Отправить" => "Send",
         "На почту придёт письмо со ссылкой, чтобы сбросить пароль" => "A letter will be sent to the mail with a link to reset your password",
+
+        //для signin.php
+        "Вход" => "Log In",
+        "Войдите в аккаунт, что бы получить возможность добавлять игры в коллекцию и писать комментарии" => 
+        "Sign in to your account to be able to add games to the collection and write comments",
+        "Пароль" => "Password",
+        "Войти" => "Sign In",
+        "Нет аккаунта? Зарегистрируйтесь." => "Don't have an account? Register.",
+        "Не помните пароль?" => "Forgot your password?",
+        "Можно войти через соцсети" => "You can enter through social networks",
+        "Войти через ВК" => "Login via VK",
+        "Войти через Фейсбук" => "Login via Facebook",
+        "Войти через Steam" => "Login via Steam",
     );
 ?>

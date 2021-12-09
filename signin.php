@@ -16,7 +16,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Вход</title>
+    <title><?php echo $lang["Вход"]?></title>
 </head>
 <body>
     <svg style="display: none;">
@@ -168,39 +168,39 @@
                 <div class="authentication">
                 	<div class="authentication__left">
                 		<div class="authentication__content">
-                			<div class="authentication__left__title">Вход</div>
-                			<div class="authentication__left__text">Войдите в аккаунт, что бы получить возможность добавлять игры в коллекцию и писать комментарии</div>
+                			<div class="authentication__left__title"><?php echo $lang["Вход"]?></div>
+                			<div class="authentication__left__text"><?php echo $lang["Войдите в аккаунт, что бы получить возможность добавлять игры в коллекцию и писать комментарии"]?></div>
                 			<form class="authentication__form" action="/" method="get">
-                	            <input class="authentication__input" type="text" placeholder="Электронная почта">
-                	            <input class="authentication__input" type="text" placeholder="Пароль">
+                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Электронная почта"]?>">
+                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Пароль"]?>">
                 	        </form>
-                	        <button class="authentication__button">Войти</button>
-                	        <a href="signup.php" class="authentication__link">Нет аккаунта? Зарегистрируйтесь.</a>
-                	        <a href="reset.php" class="authentication__link">Не помните пароль?</a>
+                	        <button class="authentication__button"><?php echo $lang["Войти"]?></button>
+                	        <a href="signup.php" class="authentication__link"><?php echo $lang["Нет аккаунта? Зарегистрируйтесь."]?></a>
+                	        <a href="reset.php" class="authentication__link"><?php echo $lang["Не помните пароль?"]?></a>
                 		</div>
                 	</div>
                 
                 	<div class="authentication__right">
                 			<div class="authentication__content">
-                			<div class="authentication__right__title">Можно войти через соцсети</div>
+                			<div class="authentication__right__title"><?php echo $lang["Можно войти через соцсети"]?></div>
                 
                 			<div class="authentication__social">
                 				<svg class="authentication__social__icon">
                 					<use xlink:href="#vk"></use>
                 				</svg>
-                				<button class="authentication__social__btn">Войти через ВК</button>
+                				<button class="authentication__social__btn"><?php echo $lang["Войти через ВК"]?></button>
                 			</div>
                 			<div class="authentication__social">
                 				<svg class="authentication__social__icon">
                 					<use xlink:href="#facebook"></use>
                 				</svg>
-                				<button class="authentication__social__btn">Войти через Фейсбук</button>
+                				<button class="authentication__social__btn"><?php echo $lang["Войти через Фейсбук"]?></button>
                 			</div>
                 			<div class="authentication__social">
                 				<svg class="authentication__social__icon">
                 					<use xlink:href="#steam"></use>
                 				</svg>
-                				<button class="authentication__social__btn">Войти через Steam</button>
+                				<button class="authentication__social__btn"><?php echo $lang["Войти через Steam"]?></button>
                 			</div>
                 		</div>
                 	</div>
