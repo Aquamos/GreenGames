@@ -221,22 +221,22 @@
     				<use xlink:href="#star"></use>
     			</svg>
     		</div>
-    		<div class="modal__content__title">оцените это</div>
+    		<div class="modal__content__title"><?php echo $lang["оцените это"]?></div>
     		<div class="modal__content__game-title">Far Cry 6</div>
     		<div class="modal__content__stars"></div>
-    		<div class="modal__content__btn">Оценить</div>
+    		<div class="modal__content__btn"><?php echo $lang["Оценить"]?></div>
     	</div>
     </div>    <footer class="footer">
         <div class="footer__inner">
             <ul class="footer__list">
                 <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Поддержка авторов</a>
+                    <a class="footer__list-link" href="#"><?php echo $lang["Поддержка авторов"]?></a>
                 </li>
                 <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Компания</a>
+                    <a class="footer__list-link" href="#"><?php echo $lang["Компания"]?></a>
                 </li>
                 <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Политика конфиденциальности</a>
+                    <a class="footer__list-link" href="#"><?php echo $lang["Политика конфиденциальности"]?></a>
                 </li>
             </ul>
         </div>

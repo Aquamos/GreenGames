@@ -17,7 +17,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Gallery</title>
+    <title><?php echo $lang["Галерея"]?></title>
 </head>
 <body>
     <svg style="display: none;">
@@ -169,8 +169,8 @@
                 <div class="gallery">
                 	<div class="games">
                 		<div class="not_found">
-                			<div class="not_found__title">результаты не найдены</div>
-                			<div class="not_found__text">К сожалению, не удалось найти результатов, соответствующих вашему запросу.</div>
+                			<div class="not_found__title"><?php echo $lang["Результаты не найдены"]?></div>
+                			<div class="not_found__text"><?php echo $lang["К сожалению, не удалось найти результатов, соответствующих вашему запросу"]?></div>
                 		</div>
                 		<div class="gameList gameList--four">
                 			<!-- <div class="gameList__games">
@@ -351,86 +351,86 @@
                 	</div>
                 
                 	<div class="filters">
-                		<div class="filters__title">Фильтры</div>
+                		<div class="filters__title"><?php echo $lang["Фильтры"]?></div>
                 		<ul class="filters__list">
                 			<li class="filters__item">
-                				<a class="filters__link has-subnav rotate" href="#">Жанр</a>
+                				<a class="filters__link has-subnav rotate" href="#"><?php echo $lang["Жанр"]?></a>
                 				<ul class="filters__subnav filters__subnav--active">
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Action">Экшен</a>
+                						<a class="filters__sublink" href="#" data-tag = "Action"><?php echo $lang["Экшен"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Adventure">Приключение</a>
+                						<a class="filters__sublink" href="#" data-tag = "Adventure"><?php echo $lang["Приключение"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Indie">Инди</a>
+                						<a class="filters__sublink" href="#" data-tag = "Indie"><?php echo $lang["Инди"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "RPG">РПГ</a>
+                						<a class="filters__sublink" href="#" data-tag = "RPG"><?php echo $lang["РПГ"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Strategy">Стратегия</a>
+                						<a class="filters__sublink" href="#" data-tag = "Strategy"><?php echo $lang["Стратегия"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Open World">Открытый мир</a>
+                						<a class="filters__sublink" href="#" data-tag = "Open World"><?php echo $lang["Открытый мир"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Shooter">Шутер</a>
+                						<a class="filters__sublink" href="#" data-tag = "Shooter"><?php echo $lang["Шутер"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Puzzle">Головоломка</a>
+                						<a class="filters__sublink" href="#" data-tag = "Puzzle"><?php echo $lang["Головоломка"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Turn-Based">Пошаговая</a>
+                						<a class="filters__sublink" href="#" data-tag = "Turn-Based"><?php echo $lang["Пошаговая"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Exploration">Иследование</a>
+                						<a class="filters__sublink" href="#" data-tag = "Exploration"><?php echo $lang["Иследование"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Platformer">Платформер</a>
+                						<a class="filters__sublink" href="#" data-tag = "Platformer"><?php echo $lang["Платформер"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "City Builder">Строитель города</a>
+                						<a class="filters__sublink" href="#" data-tag = "City Builder"><?php echo $lang["Строитель города"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Fighting">Драки</a>
+                						<a class="filters__sublink" href="#" data-tag = "Fighting"><?php echo $lang["Драки"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Racing">Гонки</a>
+                						<a class="filters__sublink" href="#" data-tag = "Racing"><?php echo $lang["Гонки"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Card Game">Карточная игра</a>
+                						<a class="filters__sublink" href="#" data-tag = "Card Game"><?php echo $lang["Карточная игра"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Stealth">Скрытность</a>
+                						<a class="filters__sublink" href="#" data-tag = "Stealth"><?php echo $lang["Скрытность"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Survival">Выживание</a>
+                						<a class="filters__sublink" href="#" data-tag = "Survival"><?php echo $lang["Выживание"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Sandbox">Песочница</a>
+                						<a class="filters__sublink" href="#" data-tag = "Sandbox"><?php echo $lang["Песочница"]?></a>
                 					</li>
                 				</ul>
                 			</li>
                 			<li class="filters__item">
-                				<a class="filters__link has-subnav rotate" href="#">Особенности</a>
+                				<a class="filters__link has-subnav rotate" href="#"><?php echo $lang["Особенности"]?></a>
                 				<ul class="filters__subnav filters__subnav--active">
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Single Player">Одиночная игра</a>
+                						<a class="filters__sublink" href="#" data-tag = "Single Player"><?php echo $lang["Одиночная игра"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Multiplayer">Мультиплеер</a>
+                						<a class="filters__sublink" href="#" data-tag = "Multiplayer"><?php echo $lang["Мультиплеер"]?></a>
                 					</li>
                 					<li>
-                						<a class="filters__sublink" href="#" data-tag = "Co-op">Кооператив</a>
+                						<a class="filters__sublink" href="#" data-tag = "Co-op"><?php echo $lang["Кооператив"]?></a>
                 					</li>
                 				</ul>
                 			</li>
                 		</ul>
-                		<div class="filters__btn">Применить фильтр</div>
+                		<div class="filters__btn"><?php echo $lang["Применить фильтр"]?></div>
                 	</div>
                 
-                	<div class="mini__filters">Фильтры</div>
+                	<div class="mini__filters"><?php echo $lang["Фильтры"]?></div>
                 </div>
             </div>
         </main>
@@ -438,7 +438,7 @@
         
     </div>
 
-    <div class="modal"  id="rating-modal">
+	<div class="modal"  id="rating-modal">
     	<div class="modal__content">
     		<button class="modal__close" type="button">
     			<img src="assets/images/close.svg" alt="">
@@ -449,22 +449,22 @@
     				<use xlink:href="#star"></use>
     			</svg>
     		</div>
-    		<div class="modal__content__title">оцените это</div>
+    		<div class="modal__content__title"><?php echo $lang["оцените это"]?></div>
     		<div class="modal__content__game-title">Far Cry 6</div>
     		<div class="modal__content__stars"></div>
-    		<div class="modal__content__btn">Оценить</div>
+    		<div class="modal__content__btn"><?php echo $lang["Оценить"]?></div>
     	</div>
     </div>    <footer class="footer">
         <div class="footer__inner">
             <ul class="footer__list">
                 <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Поддержка авторов</a>
+                    <a class="footer__list-link" href="#"><?php echo $lang["Поддержка авторов"]?></a>
                 </li>
                 <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Компания</a>
+                    <a class="footer__list-link" href="#"><?php echo $lang["Компания"]?></a>
                 </li>
                 <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Политика конфиденциальности</a>
+                    <a class="footer__list-link" href="#"><?php echo $lang["Политика конфиденциальности"]?></a>
                 </li>
             </ul>
         </div>
