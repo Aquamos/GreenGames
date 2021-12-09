@@ -128,13 +128,13 @@
 
         				<ul class="languages_subnav">
         					<li>
-        						<a class="languages__link" href="index.php?lang=ru"><?php echo $lang["lang_ru"]?></a>
+        						<a class="languages__link" href="reset.php?lang=ru"><?php echo $lang["lang_ru"]?></a>
         					</li>
         					<li>
-        						<a class="languages__link" href="index.php?lang=ua"><?php echo $lang["lang_ua"]?></a>
+        						<a class="languages__link" href="reset.php?lang=ua"><?php echo $lang["lang_ua"]?></a>
         					</li>
         					<li>
-        						<a class="languages__link" href="index.php?lang=en"><?php echo $lang["lang_en"]?></a>
+        						<a class="languages__link" href="reset.php?lang=en"><?php echo $lang["lang_en"]?></a>
         					</li>
         				</ul>
         			</li>
