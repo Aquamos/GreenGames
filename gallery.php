@@ -141,7 +141,7 @@
         			</li>
                     
                     <div class="header__enterBlock">
-                        <a href="signin.html" class="header__enter">
+                        <a href="signin.php" class="header__enter">
                             <img src="assets/images/vr_helmet_gr.png" class="header__enterImage__image" alt="">
                             <div class="header__enterText"><?php echo $lang["Выполнить вход"]?></div>
                         </a>
@@ -152,9 +152,9 @@
         	    <div class="mainHeader__inner">
         	        <div class="mainHeader__links">
         	            <a class="mainHeader__link" href="index.php"><?php echo $lang["Главная"]?></a>
-        	            <a class="mainHeader__link" href="gallery.html"><?php echo $lang["Все игры"]?></a>
+        	            <a class="mainHeader__link" href="gallery.php"><?php echo $lang["Все игры"]?></a>
         	        </div>
-        	        <form class="search" action="gallery.html" method="get">
+        	        <form class="search" action="gallery.php" method="get">
         	            <svg class="search__icon">
         	                <use xlink:href="#search"></use>
         	            </svg>
