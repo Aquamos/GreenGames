@@ -49,5 +49,11 @@
         "Мультиплеер" => "Multiplayer",
         "Кооператив" => "Co-op",
         "Применить фильтр" => "Apply filter",
+
+        //для reset.php
+        "Восстановление пароля" => "Password recovery",
+        "Электронная почта" => "E-mail",
+        "Отправить" => "Send",
+        "На почту придёт письмо со ссылкой, чтобы сбросить пароль" => "A letter will be sent to the mail with a link to reset your password",
     );
 ?>

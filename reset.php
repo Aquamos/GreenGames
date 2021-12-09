@@ -16,7 +16,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Восстановление пароля</title>
+    <title><?php echo $lang["Восстановление пароля"]?></title>
 </head>
 <body>
     <svg style="display: none;">
@@ -168,17 +168,17 @@
                 <div class="authentication">
                 	<div class="authentication__left">
                 		<div class="authentication__content">
-                			<div class="authentication__left__title">Восстановление пароля</div>
+                			<div class="authentication__left__title"><?php echo $lang["Восстановление пароля"]?></div>
                 			<form class="authentication__form" action="/" method="get">
-                	            <input class="authentication__input" type="text" placeholder="Электронная почта">
+                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Электронная почта"]?>">
                 	        </form>
-                	        <button class="authentication__button">Отправить</button>
+                	        <button class="authentication__button"><?php echo $lang["Отправить"]?></button>
                 		</div>
                 	</div>
                 
                 	<div class="authentication__right">
                 		<div class="authentication__content">
-                			<div class="authentication__right__title">На почту придёт письмо со ссылкой, чтобы сбросить пароль</div>
+                			<div class="authentication__right__title"><?php echo $lang["На почту придёт письмо со ссылкой, чтобы сбросить пароль"]?></div>
                 		</div>
                 	</div>
                 </div>
