@@ -68,5 +68,13 @@
         "Войти через ВК" => "Login via VK",
         "Войти через Фейсбук" => "Login via Facebook",
         "Войти через Steam" => "Login via Steam",
+
+        //для signup.php
+        "Регистрация" => "Registration",
+        "Создать аккаунт" => "Create an account",
+        "Есть аккаунт? Войти." => "Have an account? Sign in.",
+        "Регистрация через соцсети" => "Registration via social networks",
+        "Никнейм" => "Nickname",
+        "Придумайте пароль" => "Create a password",
     );
 ?>

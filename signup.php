@@ -16,7 +16,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Регистрация</title>
+    <title><?php echo $lang["Регистрация"]?></title>
 </head>
 <body>
     <svg style="display: none;">
@@ -168,38 +168,38 @@
                 <div class="authentication">
                 	<div class="authentication__left">
                 		<div class="authentication__content">
-                			<div class="authentication__left__title">Регистрация</div>
+                			<div class="authentication__left__title"><?php echo $lang["Регистрация"]?></div>
                 			<form class="authentication__form" action="/" method="get">
-                	            <input class="authentication__input" type="text" placeholder="Электронная почта">
-                	            <input class="authentication__input" type="text" placeholder="Никнейм">
-                	            <input class="authentication__input" type="text" placeholder="Придумайте пароль">
+                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Электронная почта"]?>">
+                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Никнейм"]?>">
+                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Придумайте пароль"]?>">
                 	        </form>
-                	        <button class="authentication__button">Создать аккаунт</button>
-                	        <a href="signin.php" class="authentication__link">Есть аккаунт? Войти.</a>
+                	        <button class="authentication__button"><?php echo $lang["Создать аккаунт"]?></button>
+                	        <a href="signin.php" class="authentication__link"><?php echo $lang["Есть аккаунт? Войти."]?></a>
                 		</div>
                 	</div>
                 
                 	<div class="authentication__right">
                 		<div class="authentication__content">
-                			<div class="authentication__right__title">Регистрация через соцсети</div>
+                			<div class="authentication__right__title"><?php echo $lang["Регистрация через соцсети"]?></div>
                 
                 			<div class="authentication__social">
                 				<svg class="authentication__social__icon">
                 					<use xlink:href="#vk"></use>
                 				</svg>
-                				<button class="authentication__social__btn">Войти через ВК</button>
+                				<button class="authentication__social__btn"><?php echo $lang["Войти через ВК"]?></button>
                 			</div>
                 			<div class="authentication__social">
                 				<svg class="authentication__social__icon">
                 					<use xlink:href="#facebook"></use>
                 				</svg>
-                				<button class="authentication__social__btn">Войти через Фейсбук</button>
+                				<button class="authentication__social__btn"><?php echo $lang["Войти через Фейсбук"]?></button>
                 			</div>
                 			<div class="authentication__social">
                 				<svg class="authentication__social__icon">
                 					<use xlink:href="#steam"></use>
                 				</svg>
-                				<button class="authentication__social__btn">Войти через Steam</button>
+                				<button class="authentication__social__btn"><?php echo $lang["Войти через Steam"]?></button>
                 			</div>
                 		</div>
                 	</div>
