@@ -17,10 +17,37 @@ $(document).ready(function() {
        
        function reqReadyStateChange() {
            if(request.readyState == 4 && request.status == 200){
-               document.getElementById("output").innerHTML = request.responseText;
-               $('form[name=authentication__form]').trigger('reset');
-               $('.authentication').hide();
-           }
+                
+                if(request.responseText == 'DuplicateError') {
+
+                    /*Действия, если такой пользователь есть в системе*/ 
+
+                    document.getElementById("output").innerHTML = request.responseText;
+                    $('form[name=authentication__form]').trigger('reset');
+                    $('.authentication').hide();
+                }
+                else if (request.responseText == 'NullError') {
+
+                    /*Действия, если в поля не было введено ни одного значения*/ 
+
+                    document.getElementById("output").innerHTML = request.responseText;
+                    $('form[name=authentication__form]').trigger('reset');
+                    $('.authentication').hide();
+                }
+                else if (request.responseText == 'NullError') {
+
+                    /*Действия, если был введён неверный email*/ 
+
+                    document.getElementById("output").innerHTML = request.responseText;
+                    $('form[name=authentication__form]').trigger('reset');
+                    $('.authentication').hide();
+                }
+                else {
+                    document.getElementById("output").innerHTML = request.responseText;
+                    $('form[name=authentication__form]').trigger('reset');
+                    $('.authentication').hide();
+                }
+            }
        }
        
        request.open("POST", "http://localhost/GreenGames/registration.php");

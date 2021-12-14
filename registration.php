@@ -1,26 +1,59 @@
+<style>
+    .outputText {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: #45ba00;
+    }
+</style>
+
 <?php
     include "../GreenGames/config.php";
 
-    // присваиваю значение, а если его нет, то NULL
-    $Email = $_POST["E-mail"];
-    $Nickname = $_POST["Nickname"];
-    $Password = $_POST["Password"];
-
     try {
-        $conn = new PDO("mysql:host=localhost;  dbname=green_games", "root", "MerlinTec18");
+        if ($_POST["E-mail"] == null && $_POST["Nickname"] == null && $_POST["Password"] == null) {
+            throw new Exception('NullError');  
+        }
+        else if (!preg_match("/^(?:[a-z0-9]+(?:[-_.]?[a-z0-9]+)?@[a-z0-9_.-]+(?:\.?[a-z0-9]+)?\.[a-z]{2,5})$/i", $_POST["E-mail"])) {
+            throw new Exception('EmailError');
+        }else {
+            $Email = $_POST["E-mail"];
+            $Nickname = $_POST["Nickname"];
+            $Password = $_POST["Password"]; 
 
-        $sql = "INSERT INTO user (Email, Nickname, Password) 
-                VALUES  ('$Email', 
-                         '$Nickname', 
-                         '$Password'
-                        )";
+            $conn = new PDO("mysql:host=localhost;  dbname=green_games", "root", "MerlinTec18");
 
-        $result = $conn->query($sql);
-        print "<h3>" . $lang["Регистрация успешна! Теперь вы можете войти на сайт"] . "<h3>";
+            $sql = "INSERT INTO user (Email, Nickname, Password) 
+                    VALUES  ('$Email', 
+                            '$Nickname', 
+                            '$Password'
+                            )";
+
+            $result = $conn->query($sql);
+            print "<div class=\"outputText\">" . $lang["Регистрация успешна! Теперь вы можете войти на сайт"] . "</div>";
+            
+            $conn = null; 
+        }    
+
         
-        $conn = null; 
     }
     catch (PDOException $e) {
-        echo "Database error: " . $e->getMessage();
+
+        if ($e->getCode() == 23000){
+            echo 'DuplicateError';
+        }
+        else {
+            print "Database error: " . $e->getMessage() . "<br>";
+            echo "Exception code: " . $e->getCode();
+        }
+    }
+    catch (Exception $e) {
+        if ($e->getMessage() == 'NullError') {
+            echo 'NullError';
+        }
+        else if ($e->getMessage() == 'EmailError') {
+            echo 'EmailError';
+        }
     }
 ?>
