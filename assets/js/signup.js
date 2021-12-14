@@ -34,7 +34,7 @@ $(document).ready(function() {
                     $('form[name=authentication__form]').trigger('reset');
                     $('.authentication').hide();
                 }
-                else if (request.responseText == 'NullError') {
+                else if (request.responseText == 'EmailError') {
 
                     /*Действия, если был введён неверный email*/ 
 
