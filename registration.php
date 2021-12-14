@@ -1,13 +1,3 @@
-<style>
-    .outputText {
-        display: flex;
-        justify-content: center;
-        font-size: 30px;
-        font-weight: 700;
-        color: #45ba00;
-    }
-</style>
-
 <?php
     include "../GreenGames/config.php";
 
@@ -22,7 +12,7 @@
             $Nickname = $_POST["Nickname"];
             $Password = $_POST["Password"]; 
 
-            $conn = new PDO("mysql:host=localhost;  dbname=green_games", "root", "MerlinTec18");
+           $conn = new PDO("mysql:host=localhost;  dbname=green_games", "Ruslan", "123456");
 
             $sql = "INSERT INTO user (Email, Nickname, Password) 
                     VALUES  ('$Email', 
