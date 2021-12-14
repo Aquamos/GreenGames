@@ -6,6 +6,6 @@ function reqReadyStateChange() {
     }
 }
 
-request.open("POST", "http://localhost/MySite/src/assets/php/games.php");
+request.open("POST", "http://localhost/GreenGames/games.php");
 request.onreadystatechange = reqReadyStateChange;
 request.send();

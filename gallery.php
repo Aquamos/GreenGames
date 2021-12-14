@@ -481,6 +481,6 @@
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/small-slider.js"></script>
     <script src="assets/js/specifications.js"></script>
-
+	<script src="assets/js/signup.js"></script>
 </body>
 </html>

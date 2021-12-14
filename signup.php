@@ -169,10 +169,10 @@
                 	<div class="authentication__left">
                 		<div class="authentication__content">
                 			<div class="authentication__left__title"><?php echo $lang["Регистрация"]?></div>
-                			<form class="authentication__form" action="/" method="get">
-                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Электронная почта"]?>">
-                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Никнейм"]?>">
-                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Придумайте пароль"]?>">
+                			<form class="authentication__form" action="/" method="get" name="authentication__form">
+                	            <input class="authentication__input" id="E-mail" type="text" placeholder="<?php echo $lang["Электронная почта"]?>">
+                	            <input class="authentication__input" id="Nickname" type="text" placeholder="<?php echo $lang["Никнейм"]?>">
+                	            <input class="authentication__input" id="Password" type="text" placeholder="<?php echo $lang["Придумайте пароль"]?>">
                 	        </form>
                 	        <button class="authentication__button"><?php echo $lang["Создать аккаунт"]?></button>
                 	        <a href="signin.php" class="authentication__link"><?php echo $lang["Есть аккаунт? Войти."]?></a>
@@ -204,6 +204,7 @@
                 		</div>
                 	</div>
                 </div>
+                <div id="output"></div>
             </div>
         </main>
 
@@ -253,6 +254,7 @@
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/small-slider.js"></script>
     <script src="assets/js/specifications.js"></script>
+    <script src="assets/js/signup.js"></script>
 
 </body>
 </html>

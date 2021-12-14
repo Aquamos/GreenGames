@@ -76,5 +76,8 @@
         "Регистрация через соцсети" => "Registration via social networks",
         "Никнейм" => "Nickname",
         "Придумайте пароль" => "Create a password",
+
+        //для registration.php
+        "Регистрация успешна! Теперь вы можете войти на сайт" => "Registration successful! Now you can enter the site."
     );
 ?>
