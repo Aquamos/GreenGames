@@ -171,8 +171,8 @@
                 			<div class="authentication__left__title"><?php echo $lang["Вход"]?></div>
                 			<div class="authentication__left__text"><?php echo $lang["Войдите в аккаунт, что бы получить возможность добавлять игры в коллекцию и писать комментарии"]?></div>
                 			<form class="authentication__form" action="/" method="get">
-                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Электронная почта"]?>">
-                	            <input class="authentication__input" type="text" placeholder="<?php echo $lang["Пароль"]?>">
+                	            <input class="authentication__input" id="SignInE-mail" type="text" placeholder="<?php echo $lang["Электронная почта"]?>">
+                	            <input class="authentication__input" id="SignInPassword" type="text" placeholder="<?php echo $lang["Пароль"]?>">
                 	        </form>
                 	        <button class="authentication__button" id="enter__button"><?php echo $lang["Войти"]?></button>
                 	        <a href="signup.php" class="authentication__link" id="signup"><?php echo $lang["Нет аккаунта? Зарегистрируйтесь."]?></a>

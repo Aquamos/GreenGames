@@ -9,8 +9,8 @@ $(document).ready(function() {
         let formData = new FormData();
 
         //добавление данных формы в "пакет"
-        formData.append('E-mail', $('#E-mail').val());
-        formData.append('Password', $('#Password').val());
+        formData.append('E-mail', $('#SignInE-mail').val());
+        formData.append('Password', $('#SignInPassword').val());
        
        var request = new XMLHttpRequest();
        

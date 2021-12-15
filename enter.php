@@ -14,14 +14,14 @@
 
             $sql = "SELECT true
                     FROM user
-                    WHERE $Email = user.Email AND $Password = user.Password
+                    WHERE '$Email' = user.Email AND '$Password' = user.Password
                     LIMIT 1
                     ";
 
             $result = $conn->query($sql);
 
             $enter = $result->fetch();
-            if ($enter == 1){
+            if ($enter[0] == 1){
                 echo 'Success';
             }
             else {
