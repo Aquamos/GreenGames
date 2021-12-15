@@ -2,7 +2,10 @@
     include "../GreenGames/config.php";
 
     try {
-        if ($_POST["E-mail"] == null || $_POST["Nickname"] == null || $_POST["Password"] == null) {
+        if ($_POST["E-mail"] == null || $_POST["E-mail"] == 'undefined' ||
+            $_POST["Nickname"] == null || $_POST["Nickname"] == 'undefined' ||
+            $_POST["Password"] == null ||  $_POST["Password"] == 'undefined') {
+                
             throw new Exception('NullError');  
         }
         else if (!preg_match("/^(?:[a-z0-9]+(?:[-_.]?[a-z0-9]+)?@[a-z0-9_.-]+(?:\.?[a-z0-9]+)?\.[a-z]{2,5})$/i", $_POST["E-mail"])) {

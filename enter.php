@@ -1,9 +1,7 @@
 <?php
     include "../GreenGames/config.php";
-
     try {
-        //print $_POST["E-mail"];
-        if ($_POST["E-mail"] == null || $_POST["Password"] == null) {
+        if ($_POST["E-mail"] == 'undefined' || $_POST["Password"] == 'undefined' || $_POST["E-mail"] == null || $_POST["E-mail"] == null) {
             throw new Exception('NullError');  
         }
         else if (!preg_match("/^(?:[a-z0-9]+(?:[-_.]?[a-z0-9]+)?@[a-z0-9_.-]+(?:\.?[a-z0-9]+)?\.[a-z]{2,5})$/i", $_POST["E-mail"])) {
@@ -39,11 +37,11 @@
         echo "Exception code: " . $e->getCode();
     }
     catch (Exception $e) {
-       /* if ($e->getMessage() == 'NullError') {
+       if ($e->getMessage() == 'NullError') {
             echo 'NullError';
         }
         else if ($e->getMessage() == 'EmailError') {
             echo 'EmailError';
-        }*/
+        }
     }
 ?>

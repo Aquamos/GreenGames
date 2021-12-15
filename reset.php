@@ -224,13 +224,9 @@
 
     <script src="assets/js/authentication.js"></script>
     <script src="assets/js/filters.js"></script>
-    <script src="assets/js/game-BD.js"></script>
     <script src="assets/js/game-gallery.js"></script>
     <script src="assets/js/game-scroll.js"></script>
-    <script src="assets/js/gameRating.js"></script>
     <script src="assets/js/search.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/small-slider.js"></script>
     <script src="assets/js/specifications.js"></script>
     <script src="assets/js/signup.js"></script>
     

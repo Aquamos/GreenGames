@@ -42,6 +42,9 @@ $(document).ready(function() {
                     $('form[name=authentication__form]').trigger('reset');
                     $('.authentication').hide();
                 }
+                else {
+                    document.getElementById("signinoutput").innerHTML = request.responseText;
+                }
             }
        }
        

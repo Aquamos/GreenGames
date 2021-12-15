@@ -4,6 +4,8 @@ $(document).ready(function() {
         $('.authentication').show();
     })
 
+    /*some changes*/
+
     $('#register__btn').on('click', function(e){
 
         let formData = new FormData();
