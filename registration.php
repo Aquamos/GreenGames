@@ -2,7 +2,7 @@
     include "../GreenGames/config.php";
 
     try {
-        if ($_POST["E-mail"] == null && $_POST["Nickname"] == null && $_POST["Password"] == null) {
+        if ($_POST["E-mail"] == null || $_POST["Nickname"] == null || $_POST["Password"] == null) {
             throw new Exception('NullError');  
         }
         else if (!preg_match("/^(?:[a-z0-9]+(?:[-_.]?[a-z0-9]+)?@[a-z0-9_.-]+(?:\.?[a-z0-9]+)?\.[a-z]{2,5})$/i", $_POST["E-mail"])) {
@@ -12,7 +12,7 @@
             $Nickname = $_POST["Nickname"];
             $Password = $_POST["Password"]; 
 
-           $conn = new PDO("mysql:host=localhost;  dbname=green_games", "Ruslan", "123456");
+           $conn = new PDO("mysql:host=localhost;  dbname=green_games", "root", "MerlinTec18");
 
             $sql = "INSERT INTO user (Email, Nickname, Password) 
                     VALUES  ('$Email', 

@@ -140,7 +140,7 @@
         			</li>
                     
                     <div class="header__enterBlock">
-                        <a href="signin.php" class="header__enter">
+                        <a href="signin.php" class="header__enter" id="header__enter">
                             <img src="assets/images/vr_helmet_gr.png" class="header__enterImage__image" alt="">
                             <div class="header__enterText"><?php echo $lang["Выполнить вход"]?></div>
                         </a>
@@ -174,7 +174,7 @@
                 	            <input class="authentication__input" id="Nickname" type="text" placeholder="<?php echo $lang["Никнейм"]?>">
                 	            <input class="authentication__input" id="Password" type="text" placeholder="<?php echo $lang["Придумайте пароль"]?>">
                 	        </form>
-                	        <button class="authentication__button"><?php echo $lang["Создать аккаунт"]?></button>
+                	        <button class="authentication__button" id="register__btn"><?php echo $lang["Создать аккаунт"]?></button>
                 	        <a href="signin.php" class="authentication__link"><?php echo $lang["Есть аккаунт? Войти."]?></a>
                 		</div>
                 	</div>

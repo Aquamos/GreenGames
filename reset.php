@@ -140,7 +140,7 @@
         			</li>
                     
                     <div class="header__enterBlock">
-                        <a href="signin.php" class="header__enter">
+                        <a href="signin.php" class="header__enter" id="header__enter">
                             <img src="assets/images/vr_helmet_gr.png" class="header__enterImage__image" alt="">
                             <div class="header__enterText"><?php echo $lang["Выполнить вход"]?></div>
                         </a>

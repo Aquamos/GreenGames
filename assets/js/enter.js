@@ -1,16 +1,15 @@
 $(document).ready(function() {
 
-    $('#signup').on('click', function(e){
+    $('#header__enter').on('click', function(e){
         $('.authentication').show();
     })
 
-    $('#register__btn').on('click', function(e){
+    $('#enter__button').on('click', function(e){
 
         let formData = new FormData();
 
         //добавление данных формы в "пакет"
         formData.append('E-mail', $('#E-mail').val());
-        formData.append('Nickname', $('#Nickname').val());
         formData.append('Password', $('#Password').val());
        
        var request = new XMLHttpRequest();
@@ -18,36 +17,35 @@ $(document).ready(function() {
        function reqReadyStateChange() {
            if(request.readyState == 4 && request.status == 200){
                 
-                if(request.responseText == 'DuplicateError') {
-
-                    /*Действия, если такой пользователь есть в системе*/ 
-
-                    alert(request.responseText);
-                    $('form[name=authentication__form]').trigger('reset');
-                }
-                else if (request.responseText == 'NullError') {
+                if (request.responseText == 'NullError') {
 
                     /*Действия, если в поля не было введено ни одного значения*/ 
 
-                    alert(request.responseText);
+                    alert("Все поля должны быть заполнены!");
                     $('form[name=authentication__form]').trigger('reset');
                 }
                 else if (request.responseText == 'EmailError') {
 
                     /*Действия, если был введён неверный email*/ 
 
-                    alert(request.responseText);
+                    alert("Ваш Email не соответствует формату! Проверьте введённые данные!");
                     $('form[name=authentication__form]').trigger('reset');
                 }
-                else {
-                    document.getElementById("output").innerHTML = request.responseText;
+                else if (request.responseText == 'Fail') {
+                    alert("Такого пользователя не существует! Проверьте введённые данные!");
+                    $('form[name=authentication__form]').trigger('reset');
+                }
+                else if (request.responseText == 'Success'){
+                    
+                    /*Действия, когда пользователь успешно вошёл*/
+                    alert("Вы успешно вошли!");
                     $('form[name=authentication__form]').trigger('reset');
                     $('.authentication').hide();
                 }
             }
        }
        
-       request.open("POST", "http://localhost/GreenGames/registration.php");
+       request.open("POST", "http://localhost/GreenGames/enter.php");
        request.onreadystatechange = reqReadyStateChange;
        request.send(formData);
 
