@@ -22,25 +22,41 @@ $(document).ready(function() {
                     /*Действия, если в поля не было введено ни одного значения*/ 
 
                     alert("Все поля должны быть заполнены!");
-                    $('form[name=authentication__form]').trigger('reset');
+                    $('#SignInPassword').val('');
+                    $('#SignInE-mail').val('');
                 }
                 else if (request.responseText == 'EmailError') {
 
                     /*Действия, если был введён неверный email*/ 
 
                     alert("Ваш Email не соответствует формату! Проверьте введённые данные!");
-                    $('form[name=authentication__form]').trigger('reset');
+                    $('#SignInPassword').val('');
+                    $('#SignInE-mail').val('');
                 }
                 else if (request.responseText == 'Fail') {
                     alert("Такого пользователя не существует! Проверьте введённые данные!");
-                    $('form[name=authentication__form]').trigger('reset');
+                    $('#SignInPassword').val('');
+                    $('#SignInE-mail').val('');
                 }
                 else if (request.responseText == 'Success'){
                     
                     /*Действия, когда пользователь успешно вошёл*/
+
+                    /*перенаправление пользователя на главную страницу*/
+                    /*Через innerHTML смена иконки и текста "Выполнить вход" на ник пользователя*/
+                    var nickRequest = new XMLHttpRequest();
+                    function reqReadyStateChange() {
+                        if(nickRequest.readyState == 4 && nickRequest.status == 200){
+                            document.getElementById("header__enterText").innerHTML = nickRequest.responseText;
+                        }
+                    }
+                    nickRequest.open("POST", "http://localhost/GreenGames/getNickname.php");
+                    nickRequest.onreadystatechange = reqReadyStateChange;
+                    nickRequest.send();
+                    
                     alert("Вы успешно вошли!");
-                    $('form[name=authentication__form]').trigger('reset');
                     $('.authentication').hide();
+                    window.location.href = 'index.php';
                 }
                 else {
                     document.getElementById("signinoutput").innerHTML = request.responseText;

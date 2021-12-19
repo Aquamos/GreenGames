@@ -1,4 +1,6 @@
 <?php
+    session_start();
+    $_SESSION['user'] = 'None';
     include "../GreenGames/config.php";
 ?>
 
@@ -146,7 +148,7 @@
                     <div class="header__enterBlock">
                         <a href="signin.php" class="header__enter" id="header__enter"> 
                             <img src="assets/images/vr_helmet_gr.png" class="header__enterImage__image" alt="">
-                            <div class="header__enterText"><?php echo $lang["Выполнить вход"]?></div>
+                            <div class="header__enterText"><?php if(!isset($_SESSION['nickname'])) { echo $lang["Выполнить вход"]; } else { echo $_SESSION['nickname']; } ?></div>
                         </a>
                     </div>
         	    </div>
@@ -577,14 +579,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="assets/js/authentication.js"></script>
-    <script src="assets/js/filters.js"></script>
-    <script src="assets/js/game-BD.js"></script>
     <script src="assets/js/game-gallery.js"></script>
     <script src="assets/js/game-scroll.js"></script>
-    <script src="assets/js/gameRating.js"></script>
     <script src="assets/js/search.js"></script>
     <script src="assets/js/slider.js"></script>
-    <script src="assets/js/small-slider.js"></script>
     <script src="assets/js/specifications.js"></script>
     <script src="assets/js/signup.js"></script>
 

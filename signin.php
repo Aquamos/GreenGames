@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include "../GreenGames/config.php";
 ?>
 
@@ -139,10 +140,10 @@
         				</ul>
         			</li>
                     
-                    <div class="header__enterBlock">
+                    <div class="header__enterBlock" id="header__enterBlock">
                         <a href="signin.php" class="header__enter" id="header__enter">
                             <img src="assets/images/vr_helmet_gr.png" class="header__enterImage__image" alt="">
-                            <div class="header__enterText"><?php echo $lang["Выполнить вход"]?></div>
+                            <div class="header__enterText" id="header__enterText"><?php echo $lang["Выполнить вход"]?></div>
                         </a>
                     </div>
         	    </div>
@@ -170,9 +171,18 @@
                 		<div class="authentication__content">
                 			<div class="authentication__left__title"><?php echo $lang["Вход"]?></div>
                 			<div class="authentication__left__text"><?php echo $lang["Войдите в аккаунт, что бы получить возможность добавлять игры в коллекцию и писать комментарии"]?></div>
-                			<form class="authentication__form" action="/" method="get">
-                	            <input class="authentication__input" id="SignInE-mail" type="text" placeholder="<?php echo $lang["Электронная почта"]?>">
-                	            <input class="authentication__input" id="SignInPassword" type="text" placeholder="<?php echo $lang["Пароль"]?>">
+                			<form class="authentication__form" action="/" method="get" name="authentication__form">
+                	            <input class="authentication__input" 
+                                        id="SignInE-mail" 
+                                        type="text" 
+                                        placeholder="<?php echo $lang["Электронная почта"]?>" 
+                                        value="<?php if(isset($_SESSION['userEmail'])) {$_SESSION['userEmail']; echo $_SESSION['userEmail']; } ?>">
+
+                	            <input class="authentication__input" 
+                                        id="SignInPassword" 
+                                        type="text" 
+                                        placeholder="<?php echo $lang["Пароль"]?>"
+                                        value="<?php if(isset($_SESSION['userPassword'])) {$_SESSION['userPassword']; echo $_SESSION['userPassword']; }  ?>">
                 	        </form>
                 	        <button class="authentication__button" id="enter__button"><?php echo $lang["Войти"]?></button>
                 	        <a href="signup.php" class="authentication__link" id="signup"><?php echo $lang["Нет аккаунта? Зарегистрируйтесь."]?></a>

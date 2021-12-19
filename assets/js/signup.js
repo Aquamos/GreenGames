@@ -43,7 +43,6 @@ $(document).ready(function() {
                 }
                 else {
                     document.getElementById("output").innerHTML = request.responseText;
-                    $('form[name=authentication__form]').trigger('reset');
                     $('.authentication').hide();
                 }
             }

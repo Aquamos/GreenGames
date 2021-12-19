@@ -1,6 +1,8 @@
 <?php
+    session_start();
     include "../GreenGames/config.php";
     try {
+        
         if ($_POST["E-mail"] == 'undefined' || $_POST["Password"] == 'undefined' || $_POST["E-mail"] == null || $_POST["E-mail"] == null) {
             throw new Exception('NullError');  
         }
@@ -21,7 +23,9 @@
             $result = $conn->query($sql);
 
             $enter = $result->fetch();
-            if ($enter[0] == 1){
+            if ($enter == true){
+                $_SESSION['userEmail'] =  $Email; 
+                $_SESSION['userPassword'] =  $Password; 
                 echo 'Success';
             }
             else {
