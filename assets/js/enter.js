@@ -64,7 +64,7 @@ $(document).ready(function() {
             }
        }
        
-       request.open("POST", "http://localhost/GreenGames/enter.php");
+       request.open("POST", "http://localhost/GreenGames/scripts/enter.php");
        request.onreadystatechange = reqReadyStateChange;
        request.send(formData);
 
