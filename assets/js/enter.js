@@ -50,7 +50,7 @@ $(document).ready(function() {
                             document.getElementById("header__enterText").innerHTML = nickRequest.responseText;
                         }
                     }
-                    nickRequest.open("POST", "http://localhost/GreenGames/getNickname.php");
+                    nickRequest.open("POST", "http://localhost/GreenGames/scripts/getNickname.php");
                     nickRequest.onreadystatechange = reqReadyStateChange;
                     nickRequest.send();
                     

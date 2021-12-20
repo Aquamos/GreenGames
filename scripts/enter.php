@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include "../config.php";
+    include "../GreenGames/scripts/config.php";
     try {
         
         if ($_POST["E-mail"] == 'undefined' || $_POST["Password"] == 'undefined' || $_POST["E-mail"] == null || $_POST["E-mail"] == null) {

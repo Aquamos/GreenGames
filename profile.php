@@ -1,7 +1,7 @@
 <?php
     session_start();
     $_SESSION['user'] = 'None';
-    include "../GreenGames/config.php";
+    include "../GreenGames/scripts/config.php";
 ?>
 
 
