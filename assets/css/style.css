@@ -2685,3 +2685,47 @@ a, a:active, a:focus {
     font-weight: 700;
     color: #45ba00;
 }
+
+
+
+.profile{
+    margin-top: -5rem;
+}
+
+.profile__avatar{
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto 2rem;
+
+    border: 2px solid white;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, .25);
+    border-radius: 50%;
+    position: relative;
+}
+
+.profile__header{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.profile__name{
+    font-size: 1.8rem;
+}
+
+.profile__prof{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #DEDEDE;
+}
+
+.profile__text{
+    padding: 3rem 0;
+    margin: 3rem 0;
+
+    font-size: 1.2rem;
+    text-align: center;
+
+    border-top: 1px solid #1C1C1C;
+    border-bottom: 1px solid #1C1C1C;
+}
