@@ -2685,3 +2685,117 @@ a, a:active, a:focus {
     font-weight: 700;
     color: #45ba00;
 }
+
+
+
+.cabinet{
+    display: flex;
+}
+
+.cabinet__form{
+    width: 34rem;
+}
+
+.cabinet__avatar{
+    flex-grow: 1;
+    padding-left: 11rem;
+}
+
+.cabinet__avatar img{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+
+.cabinet__file{
+    font-size: 1.4rem;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cabinet__file input{
+    display: none;
+}
+.cabinet__file:hover{
+    text-decoration: none;
+}
+
+
+
+
+.form--auth{
+    max-width: 28rem;
+    margin: 0 auto;
+}
+
+.form__group{
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.form__group--md{
+    margin-bottom: 2.5rem;
+}
+
+.form__control{
+    display: block;
+    width: 100%;
+    padding: .5rem 0 .75rem;
+
+    background: none;
+    border: none;
+    border-bottom: 1px solid #3F3F3F;
+    border-radius: 0;
+    box-shadow: none;
+
+    font-family: inherit;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.form__control::placeholder{
+    color: rgba(white, .2);
+}
+.form__control:focus + .form__line{
+    width: 100%;
+}
+.form__control--textarea{
+    height: 32px;
+    overflow: hidden;
+    resize: none;
+}
+
+.form__line{
+    width: 0;
+    height: 1px;
+    background-color: blue;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+
+    transition: width .2s linear;
+}
+
+.form__footer--center{
+    text-align: center;
+}
+
+
+.form__footer-list{
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.form__footer-list li{
+    margin: 0 .5rem;
+}
+
+.form__footer-list a{
+    color: white;
+}

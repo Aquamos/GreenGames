@@ -146,7 +146,7 @@
         			</li>
                     
                     <div class="header__enterBlock">
-                        <a href="signin.php" class="header__enter" id="header__enter"> 
+                        <a href="<?php if(!isset($_SESSION['nickname'])) { echo "signin.php"; } else { echo "profile.php"; } ?>" class="header__enter" id="header__enter"> 
                             <img src="assets/images/vr_helmet_gr.png" class="header__enterImage__image" alt="">
                             <div class="header__enterText"><?php if(!isset($_SESSION['nickname'])) { echo $lang["Выполнить вход"]; } else { echo $_SESSION['nickname']; } ?></div>
                         </a>
