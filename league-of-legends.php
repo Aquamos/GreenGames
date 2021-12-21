@@ -12,7 +12,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>ARK Survaval Evolved</title>
+    <title>League of Legends</title>
 </head>
 <body>
     <svg style="display: none;">
@@ -160,7 +160,7 @@
         <main class="main">
             <div class="container">
                 
-                <div class="game__title">ARK Survaval Evolved</div>
+                <div class="game__title">Лига Легенд</div>
                 <div class="game__content">
                 	<div class="game__left">
                 		<!-- Gallery -->
@@ -175,30 +175,33 @@
                 	         	</div>
                 	      	</div>
                 	      	<div class="game-gallery__small">
-                	         	<img class="active" src="assets/images/games/ARK-Survival-Evolved/1.jpg" alt="Миниатюра 1">
-                	        	<img src="assets/images/games/ARK-Survival-Evolved/2.jpg" alt="Миниатюра 2">
-                	         	<img src="assets/images/games/ARK-Survival-Evolved/3.jpg" alt="Миниатюра 3">
-                	        	<img src="assets/images/games/ARK-Survival-Evolved/4.jpg" alt="Миниатюра 4">
-                	        	<img src="assets/images/games/ARK-Survival-Evolved/5.jpg" alt="Миниатюра 5">
+                	         	<img class="active" src="assets/images/games/leage-of-leagends/1.jpg" alt="Миниатюра 1">
+                	        	<img src="assets/images/games/leage-of-leagends/2.jpg" alt="Миниатюра 2">
+                	         	<img src="assets/images/games/leage-of-leagends/3.jpg" alt="Миниатюра 3">
+                	        	<img src="assets/images/games/leage-of-leagends/4.jpg" alt="Миниатюра 4">
+                	        	<img src="assets/images/games/leage-of-leagends/5.jpg" alt="Миниатюра 5">
                 	      	</div>
                 	   	</div><!-- /Gallery -->
                 
                 		<div class="game__short-description">
-                			<p>Вас выбросило на берег таинственного острова, где вам придётся научиться выживать. Используйте свою хитрость, чтобы убивать или приручать первобытных существ, населяющих остров, и объединяйтесь с другими игроками, чтобы выживать, властвовать... и сбежать отсюда!</p>
+                			<p>Стань легендой. Найдите своего чемпиона, овладейте его способностями и обыграйте своих противников в эпической битве 5 на 5, чтобы уничтожить базу врага.</p>
                 		</div>
                 
                 		<div class="game__tags">
                 			<div class="game__tags-item">
                 				<div class="game__tags-title">Жанры</div>
                 				<div class="game__item__tags">
-                					<p class="game__tags-tag">Ролевая,</p>
-                					<p class="game__tags-tag">Выживание,</p>
-                					<p class="game__tags-tag">Приключение</p>
+                					<p class="game__tags-tag">Действие,</p>
+                					<p class="game__tags-tag">РПГ,</p>
+                					<p class="game__tags-tag">Стратегия</p>
                 				</div>
                 			</div>
                 			<div class="game__tags-item">
                 				<div class="game__tags-title">Особенности</div>
                 				<div class="game__item__tags">
+                					<p class="game__tags-tag">Кооператив,</p>
+                					<p class="game__tags-tag">Мультиплеер,</p>
+                					<p class="game__tags-tag">Конкурентоспособный,</p>
                 					<p class="game__tags-tag">Одиночная игра</p>
                 				</div>
                 			</div>
@@ -206,9 +209,28 @@
                 
                 		<div class="game__descriptons">
                 			<div class="game__descriptions__item">
-                				<div class="game__descriptions__item-title">ARK: Survival Evolved</div>
-                				<div class="game__descriptions__item-text">Испытайте все, что может предложить франшиза ARK, в этой исчерпывающей коллекции! Приручайте и управляйте первобытными существами, исследуя дикие земли, объединяйтесь с другими игроками, чтобы участвовать в эпических племенных битвах, и вместе путешествовать в величайшем приключении всех времен, наполненном динозаврами.
-                					От первобытных островных джунглей до футуристических садов межзвездного звездолета - вы можете покорить любую обширную среду! Откройте для себя сотни уникальных видов, бродящих по этим землям, от доисторических до фантастических, и узнайте, как подружиться с этими существами или победить их. Заполните свою коллекцию заметок и досье, оставленных прошлыми исследователями, чтобы узнать удивительную историю ARK. Испытайте свое племя и своих зверей в битвах с каждым вызовом босса из франшизы!</div>
+                				<div class="game__descriptions__item-title">ИГРАЙТЕ БЕСПЛАТНО, ИГРАЙТЕ, ЧТОБЫ ВЫИГРАТЬ</div>
+                				<div class="game__descriptions__item-text">Продемонстрируйте свои навыки на уникальной боевой арене 5 на 5, которая сочетает в себе командную стратегию с мастерством в одиночку. Выберите свою роль, совершенствуйте свою сборку и пробивайтесь через карту, чтобы уничтожить вражеский Нексус. Игра всегда бесплатна - пусть победит лучшая команда.</div>
+                			</div>
+                			<div class="game__descriptions__item">
+                				<div class="game__descriptions__item-title">ВЫБЕРИТЕ ВАШЕГО ЧЕМПИОНА</div>
+                				<div class="game__descriptions__item-text">На выбор предлагается более 150 чемпионов, стиль игры найдется для всех. Пробирайтесь как убийца, косите их как стрелок или защищайте своих товарищей по команде в качестве поддержки. От элегантных мастеров меча до неповоротливых зверей - выбирайте из разнообразного, постоянно растущего списка и играйте по-своему.</div>
+                			</div>
+                			<div class="game__descriptions__item">
+                				<div class="game__descriptions__item-title">ОТКРОЙТЕ СВОИ НАВЫКИ</div>
+                				<div class="game__descriptions__item-text">Поднимитесь по рейтинговой лестнице и докажите свое мастерство в самом соревновательном киберспорте в мире. Погрузитесь в одиночную очередь, возьмите напарника или сразитесь в команде, чтобы сразиться с похожими игроками и заработать место на вершине. Конкуренция хорошая, но ты станешь лучше.</div>
+                			</div>
+                			<div class="game__descriptions__item">
+                				<div class="game__descriptions__item-title">ИГРАЙТЕ С ДРУЗЬЯМИ</div>
+                				<div class="game__descriptions__item-text">С друзьями вкус победы слаще. Соберите команду своей мечты, выберите роль и работайте вместе, чтобы победить даже самых грозных врагов. Готовы принять вызов? Соберите свою команду для турниров Clash, чтобы сокрушить соперников и заработать эксклюзивные награды.</div>
+                			</div>
+                			<div class="game__descriptions__item">
+                				<div class="game__descriptions__item-title">СВЕЖИЕ РЕЖИМЫ ИГРЫ</div>
+                				<div class="game__descriptions__item-text">Хотите ли вы выработать стратегию в Ущелье призывателей или развязать хаос в режимах All Random, All Mid, изучите все способы игры в League. Благодаря ежемесячной ротации уникальных игровых режимов вы никогда не знаете, когда найдете новый любимый.</div>
+                			</div>
+                			<div class="game__descriptions__item">
+                				<div class="game__descriptions__item-title">СТИЛЬ НА ЭМ</div>
+                				<div class="game__descriptions__item-text">Выразите себя во вселенной альтернативных фантазий. Убивайте в стиле киберпанк-охотника, небесного стража или межгалактического контрабандиста. Хотите сыграть ковбоя? Поп-звезда? Буквальная пчела? Это все зависит от вас. Скины, значки и другая косметика доступны в магазине, или играйте в игры, чтобы разблокировать ящики бесплатно.</div>
                 			</div>
                 		</div>
                 
@@ -216,27 +238,32 @@
                 		<div class="game__social">
                 			<div class="game__social-title">Подписывайтесь на нас</div>
                 			<div class="game__social__items">
-                				<a class="game__social__item" href="https://www.facebook.com/survivetheark" target="_blank">
+                				<a class="game__social__item" href="https://www.facebook.com/leagueoflegends" target="_blank">
                 					<svg class="game__social__icon">
                 						<use xlink:href="#facebook"></use>
                 					</svg>
                 				</a>
-                				<a class="game__social__item" href="https://www.instagram.com/survivetheark/" target="_blank">
+                				<a class="game__social__item" href="https://www.instagram.com/leagueoflegends" target="_blank">
                 					<svg class="game__social__icon">
                 						<use xlink:href="#instagram"></use>
                 					</svg>
                 				</a>
-                				<a class="game__social__item" href="https://www.twitch.tv/survivetheark" target="_blank">
+                				<a class="game__social__item" href="https://www.twitch.tv/directory/game/League" target="_blank">
                 					<svg class="game__social__icon">
                 						<use xlink:href="#twitch"></use>
                 					</svg>
                 				</a>
-                				<a class="game__social__item" href="https://twitter.com/survivetheark" target="_blank">
+                				<a class="game__social__item" href="https://twitter.com/LeagueOfLegends" target="_blank">
                 					<svg class="game__social__icon">
                 						<use xlink:href="#twitter"></use>
                 					</svg>
                 				</a>
-                				<a class="game__social__item" href="https://www.youtube.com/survivetheark" target="_blank">
+                				<a class="game__social__item" href="https://vk.com/leagueoflegends" target="_blank">
+                					<svg class="game__social__icon">
+                						<use xlink:href="#vk"></use>
+                					</svg>
+                				</a>
+                				<a class="game__social__item" href="https://www.youtube.com/c/leagueoflegends" target="_blank">
                 					<svg class="game__social__icon">
                 						<use xlink:href="#youtube"></use>
                 					</svg>
@@ -248,6 +275,7 @@
                 		<div class="specifications">
                 	        <div class="specifications__nav">
                 	            <button class="specifications__nav-btn active" type="button" data-tab="#Windows">Windows</button>
+                	            <button class="specifications__nav-btn" type="button" data-tab="#MAC_OS">MAC OS</button>
                 	        </div>
                 	        <div class="specifications__content">
                 	            <div class="specifications__item active" id="Windows">
@@ -255,62 +283,105 @@
                                 	<div class="specifications__item-title">Рекомендованые</div>
                                 	<div class="specifications__item-points">
                                 		<div class="specifications__item-points-title">OS</div>
-                                		<div class="specifications__item-points-text">Windows 7/8.1/10 (64-разрядные версии)</div>
+                                		<div class="specifications__item-points-text">Win 7, 8, 10</div>
                                 	</div>
                                 	<div class="specifications__item-points">
                                 		<div class="specifications__item-points-title">OS</div>
-                                		<div class="specifications__item-points-text">Windows 10 (64-разрядная)</div>
+                                		<div class="specifications__item-points-text">Win 10</div>
                                 	</div>
                                 	<div class="specifications__item-points">
                                 		<div class="specifications__item-points-title">Процессор</div>
-                                		<div class="specifications__item-points-text">Не ниже Intel Core i5-2400 / AMD FX-8320</div>
+                                		<div class="specifications__item-points-text">Intel: Core i3-530 AMD: A6-3650 ARM: не поддерживается</div>
                                 	</div>
                                 	<div class="specifications__item-points">
                                 		<div class="specifications__item-points-title">Процессор</div>
-                                		<div class="specifications__item-points-text">Intel Core i5-4670K с частотой 3,4 ГГц / AMD Ryzen R5 1500X или лучше</div>
+                                		<div class="specifications__item-points-text">Intel: Core i5-3300 AMD: Ryzen 3 1200 ARM: не поддерживается</div>
                                 	</div>
                                 	<div class="specifications__item-points">
-                                		<div class="specifications__item-points-title">Оперативная память</div>
-                                		<div class="specifications__item-points-text">8 ГБ</div>
+                                		<div class="specifications__item-points-title">Объем памяти</div>
+                                		<div class="specifications__item-points-text">2 ГБ</div>
                                 	</div>
                                 	<div class="specifications__item-points">
-                                		<div class="specifications__item-points-title">Оперативная память</div>
-                                		<div class="specifications__item-points-text">16 ГБ</div>
-                                	</div>
-                                	<div class="specifications__item-points">
-                                		<div class="specifications__item-points-title">Место на диске</div>
-                                		<div class="specifications__item-points-text">60 ГБ</div>
+                                		<div class="specifications__item-points-title">Объем памяти</div>
+                                		<div class="specifications__item-points-text">4 ГБ</div>
                                 	</div>
                                 	<div class="specifications__item-points">
                                 		<div class="specifications__item-points-title">Место хранения</div>
-                                		<div class="specifications__item-points-text">60 ГБ</div>
+                                		<div class="specifications__item-points-text">Жесткий диск 16 ГБ</div>
+                                	</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">Место хранения</div>
+                                		<div class="specifications__item-points-text">Твердотельный накопитель 16 ГБ</div>
                                 	</div>
                                 	<div class="specifications__item-points">
                                 		<div class="specifications__item-points-title">Direct X</div>
-                                		<div class="specifications__item-points-text">10</div>
+                                		<div class="specifications__item-points-text">Оборудование уровня DX10</div>
                                 	</div>
                                 	<div class="specifications__item-points">
                                 		<div class="specifications__item-points-title">Direct X</div>
-                                		<div class="specifications__item-points-text">11</div>
+                                		<div class="specifications__item-points-text">Оборудование уровня DX11</div>
                                 	</div>
                                 	<div class="specifications__item-points">
                                 		<div class="specifications__item-points-title">Графика</div>
-                                		<div class="specifications__item-points-text">Не ниже NVIDIA GTX 670 с видеопамятью объёмом 2 ГБ / AMD Radeon HD 7870 с видеопамятью объёмом 2 ГБ</div>
+                                		<div class="specifications__item-points-text">NVidia: GeForce 9600GT AMD: HD 6570 Intel: Intel HD 4600 Integrated Graphics</div>
                                 	</div>
                                 	<div class="specifications__item-points">
-                                		<div class="specifications__item-points-title">Видеокарта</div>
-                                		<div class="specifications__item-points-text">Не ниже NVIDIA GTX 670 с видеопамятью объёмом 2 ГБ / AMD Radeon HD 7870 с видеопамятью объёмом 2 ГБ</div>
+                                		<div class="specifications__item-points-title">Графика</div>
+                                		<div class="specifications__item-points-text">NVidia: GeForce 560 AMD: Radeon HD 6950 Intel: Intel UHD 630 Integrated Graphics</div>
                                 	</div>
                 	            </div>
                 
-                	           
+                	            <div class="specifications__item" id="MAC_OS">
+                	                <div class="specifications__item-title">Минимальные</div>
+                                	<div class="specifications__item-title">Рекомендованые</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">OS</div>
+                                		<div class="specifications__item-points-text">MacOS 10.12</div>
+                                	</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">OS</div>
+                                		<div class="specifications__item-points-text">MacOS 10.16</div>
+                                	</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">Процессор</div>
+                                		<div class="specifications__item-points-text">Intel - Core i5-750 ARM - не поддерживается</div>
+                                	</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">Процессор</div>
+                                		<div class="specifications__item-points-text">Intel - Core i5-3300 ARM - не поддерживается</div>
+                                	</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">Объем памяти</div>
+                                		<div class="specifications__item-points-text">2 ГБ</div>
+                                	</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">Объем памяти</div>
+                                		<div class="specifications__item-points-text">4 ГБ</div>
+                                	</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">Место хранения</div>
+                                		<div class="specifications__item-points-text">Жесткий диск 16 ГБ</div>
+                                	</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">Место хранения</div>
+                                		<div class="specifications__item-points-text">Твердотельный накопитель 16 ГБ</div>
+                                	</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">Графика</div>
+                                		<div class="specifications__item-points-text">AMD - HD 6570 Intel: Intel HD 4600 Integrated Graphics</div>
+                                	</div>
+                                	<div class="specifications__item-points">
+                                		<div class="specifications__item-points-title">Графика</div>
+                                		<div class="specifications__item-points-text">AMD: Radeon HD 6950 Intel: Intel UHD 630 Integrated Graphics</div>
+                                	</div>
+                	            </div>
                 	            <div class="specifications__item-points--big">
                             		<div class="specifications__item-points-title">Поддерживаемые языки</div>
-                            		<div class="specifications__item-points-text">АОЗВУЧИВАНИЕ: английский, французский, итальянский, немецкий, испанский (Испания), португальский (Бразилия), русский, японский
-                						ТЕКСТ: английский, китайский (упрощённый), китайский (традиционный), датский, голландский, французский, немецкий, финский, итальянский, японский, корейский, норвежский, польский, португальский, португальский (Бразилия), русский, испанский (Испания), испанский (Латинская Америка), шведский, тайский, турецкий, украинский</div>
+                            		<div class="specifications__item-points-text">Аудио: английский, китайский традиционный, чешский, французский, немецкий, греческий, венгерский, итальянский, японский, корейский, польский, португальский (Бразилия), румынский, русский, испанский (Испания), испанский (Латинская Америка), турецкий, китайский (упрощенный)
+                					Текст: английский, китайский упрощенный, китайский традиционный, чешский, французский, немецкий, греческий, венгерский, итальянский, японский, корейский, польский, португальский (Бразилия), румынский, русский, испанский (Испания), турецкий, тайский, вьетнамский</div>
                             	</div>
                             	<div class="specifications__footer">
-                            		© Copyright 2020 STUDIO WILDCARD. All Rights Reserved.
+                            		© 2019-2021 Riot Games, Inc. TEAMFIGHT TACTICS и любые связанные логотипы являются товарными знаками, знаками обслуживания и / или зарегистрированными товарными знаками Riot Games, Inc.
                             	</div>
                 	        </div>
                 	    </div>
@@ -318,22 +389,22 @@
                 	</div><!-- /game__left -->
                 
                 	<div class="game__right">
-                		<img class="game__title-img" src="assets/images/games/ARK-Survival-Evolved/title.webp">
+                		<img class="game__title-img" src="assets/images/games/leage-of-leagends/title.jpg">
                 		<button class="game__collection" type="button">
                 			<div class="circle plus"></div>
                 			<div class="game__collection-title">Добавить в список желаний</div>
                 		</button>
                 		<div class="game__right-item">
                 			<div class="game__right-title">Разработчик</div>
-                			<div class="game__right-text">Studio Wildcard</div>
+                			<div class="game__right-text">Riot Games</div>
                 		</div>
                 		<div class="game__right-item">
                 			<div class="game__right-title">Издатель</div>
-                			<div class="game__right-text">Snail Games USA</div>
+                			<div class="game__right-text">Riot Games</div>
                 		</div>
                 		<div class="game__right-item">
                 			<div class="game__right-title">Дата выхода</div>
-                			<div class="game__right-text">27 авг. 2017 г.</div>
+                			<div class="game__right-text">27 октября 2009 г.</div>
                 		</div>
                 		<div class="game__right-item">
                 			<div class="game__right-title">Платформа</div>
@@ -341,6 +412,11 @@
                 				<li>
                 					<svg class="game__right__icon">
                 						<use xlink:href="#windows__icon"></use>
+                					</svg>
+                				</li>
+                				<li>
+                					<svg class="game__right__icon">
+                						<use xlink:href="#mac__icon"></use>
                 					</svg>
                 				</li>
                 			</div>
@@ -385,6 +461,7 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="../assets/js/game-gallery.js"></script>
+	<script src="../assets/js/gameRating.js"></script>
 </body>
 </html>

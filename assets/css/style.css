@@ -2084,6 +2084,7 @@ a, a:active, a:focus {
     width: 26px;
     height: 26px;
     text-decoration: none;
+    margin-right: 50px;
 }
 
 .game__social__icon {

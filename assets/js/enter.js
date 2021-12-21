@@ -71,3 +71,10 @@ $(document).ready(function() {
     });
 
 });
+
+$('#enter__button').on('click', function(e){
+
+    
+    $("#/*id контейнера куда выводить*/").html("/*инфа, которую выводить*/");
+
+});

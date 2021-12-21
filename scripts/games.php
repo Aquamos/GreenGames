@@ -2,7 +2,7 @@
     try {
         $conn = new PDO("mysql:host=localhost;  dbname=green_games", "root", "MerlinTec18");
 
-        $sql = "SELECT game.Id, game.Name, game.Image, developer.DeveloperName
+        $sql = "SELECT game.Id, game.Name, game.Image, developer.DeveloperName, game.Link
                 FROM game
                 JOIN gamehasdeveloper ON game.Id = gamehasdeveloper.GameId
                 JOIN developer ON developer.Id = gamehasdeveloper.DeveloperId
@@ -75,7 +75,7 @@
 
         foreach ($data as $row) 
         {
-            echo '<a href="#" class="gameList__item">';
+            echo '<a href="'. $row["Link"] .'" class="gameList__item">';
             echo    '<div class="gameList__img">';
             echo        "<img src=\"".$row["Image"]."\">";
             echo    '</div>';

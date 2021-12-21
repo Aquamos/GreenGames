@@ -1,5 +1,6 @@
 <?php
     session_start();
+    session_unset(); 
     $_SESSION['user'] = 'None';
     include "../GreenGames/scripts/config.php";
 ?>
