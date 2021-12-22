@@ -50,7 +50,7 @@ $(document).ready(function() {
                             document.getElementById("header__enterText").innerHTML = nickRequest.responseText;
                         }
                     }
-                    nickRequest.open("POST", "http://localhost/GreenGames/scripts/getNickname.php");
+                    nickRequest.open("POST", "http://localhost/GreenGames/getNickname.php");
                     nickRequest.onreadystatechange = reqReadyStateChange;
                     nickRequest.send();
                     
@@ -64,17 +64,10 @@ $(document).ready(function() {
             }
        }
        
-       request.open("POST", "http://localhost/GreenGames/scripts/enter.php");
+       request.open("POST", "http://localhost/GreenGames/enter.php");
        request.onreadystatechange = reqReadyStateChange;
        request.send(formData);
 
     });
-
-});
-
-$('#enter__button').on('click', function(e){
-
-    
-    $("#/*id контейнера куда выводить*/").html("/*инфа, которую выводить*/");
 
 });

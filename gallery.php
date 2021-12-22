@@ -1,6 +1,6 @@
 <?php
 	session_start();
-    include "../GreenGames/scripts/config.php";
+    include "config.php";
 ?>
 
 

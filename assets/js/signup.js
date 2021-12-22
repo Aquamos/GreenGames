@@ -48,7 +48,7 @@ $(document).ready(function() {
             }
        }
        
-       request.open("POST", "http://localhost/GreenGames/scripts/registration.php");
+       request.open("POST", "http://localhost/GreenGames/registration.php");
        request.onreadystatechange = reqReadyStateChange;
        request.send(formData);
 

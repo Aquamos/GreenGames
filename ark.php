@@ -1,8 +1,7 @@
 <?php
     session_start();
-    session_unset(); 
     $_SESSION['user'] = 'None';
-    include "scripts/config.php";
+    include "config.php";
 ?>
 
 <!DOCTYPE html>
